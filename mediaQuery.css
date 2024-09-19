@@ -1,0 +1,63 @@
+@media only screen and (max-width: 768px) {
+  
+    .player {
+      width: 100%;
+      height: auto;
+    }
+  
+    .details {
+      padding: 10px;
+    }
+  
+    .track-name, .track-artist {
+      font-size: 14px;
+    }
+  
+    .slider_container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .buttons {
+      justify-content: space-around;
+    }
+
+    .repeat-track, .prev-track, .playpause-track, .next-track, .random-track {
+      width: 25%;
+      padding: 10px;
+    }
+  
+    .wave {
+      height: 50px;
+      width: 100%;
+    }
+  }
+
+/* ----------------------Mobile Screen--------------- */
+  @media only screen and (max-width: 480px) {
+  
+    .player {
+      width: 100%;
+      height: auto;
+    }
+  
+    .details {
+      padding: 5px;
+    }
+  
+    .track-name, .track-artist {
+      font-size: 12px;
+    }
+  
+    .slider_container {
+      width: 70%;
+    }
+  
+    .buttons {
+      justify-content: space-between;
+    }
+  
+    .wave {
+      height: 30px;
+    }
+  }

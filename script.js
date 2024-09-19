@@ -20,6 +20,8 @@ let isPlaying = false;
 let isRandom = false;
 let updateTimer;
 
+
+// Song list -------------------------
 const music_list = [
     {
         img : 'images/adekunlegold.png',
@@ -96,7 +98,7 @@ function loadTrack(track_index){
     curr_track.addEventListener('ended', nextTrack);
     random_bg_color();
 }
-
+// Background Color Change-----------------------------
 function random_bg_color(){
     let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
     let a;
@@ -111,7 +113,7 @@ function random_bg_color(){
     }
     let Color1 = populate('#');
     let Color2 = populate('#');
-    var angle = 'to right';
+    var angle = 'to left';
 
     let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
     document.body.style.background = gradient;
